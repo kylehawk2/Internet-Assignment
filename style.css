@@ -1,0 +1,14 @@
+*{
+    width: 0px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+#container{
+    width: 970px;
+    margin: 0px auto;
+}
+#header img{
+    width: 120px;
+    overflow: auto;
+    float: left;
+}
