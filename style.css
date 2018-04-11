@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -25,11 +25,11 @@
 }
 .container h2{
     width: 970px;
-    background-color: lightskyblue;
+    background-color: rgb(57, 120, 160);
     color: white;
     text-align: left;
-   padding: 15px;
-   margin-top: -15px;
+    padding: 15px;
+    margin-top: -15px;
 }
 .main{
     width: 250px;
@@ -38,6 +38,12 @@
 .main p{
     font-weight: 900;
     margin-left: 5px;
+}
+.side_bar{
+    width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 15px;
 }
 .side_bar .red{
     color: red;
@@ -50,6 +56,7 @@
     border-radius: 10px;
     padding: 10px;
     font-size: 20px;
+    margin: 5px;
 }
 .blue_button{
     background-color: rgb(79, 104, 184);
@@ -62,13 +69,12 @@
 .line{
     width: 250px;
     background-color: black;
-    float: center;
 }
 .reinvent{
     background-image: url(ad_background.png);
-    height: 330px;
+    height: 312px;
     padding-top: 20px;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .reinvent h3{
     font-size: 30px;
@@ -91,16 +97,32 @@
     margin: 0 auto;
 }
 .main_header{
+    position: relative;
+    top: -550px;
+    left: 254px;
+    width: 745px;
     border-bottom: 1px solid grey;
     padding-bottom: 10px;
 }
 .main_header img{
     width: 20px;
 }
+.main_header .phone_img{
+    width: 20px;
+    position: relative;
+}
+.main_header p{
+    position: relative;
+    left: 515px;
+    font-size: 10px;
+    color: grey;
+    margin-left: 0px;
+    font-weight: 1;
+}
 .main_header h3{
     display: inline-block;
 }
-.main_content{
+.contact_info{
     display: inline-block;
-    width: 695px;
+    vertical-align: top;
 }
