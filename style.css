@@ -32,7 +32,6 @@
     margin-top: -15px;
 }
 .main{
-    width: 250px;
     display: inline-block;
 }
 .main p{
@@ -42,8 +41,6 @@
 .side_bar{
     width: 250px;
 	display: inline-block;
-	vertical-align: top;
-	padding-top: 15px;
 }
 .side_bar .red{
     color: red;
@@ -96,33 +93,96 @@
     display: block;
     margin: 0 auto;
 }
+.main_content{
+    vertical-align: top;
+    display: inline-block;
+}
 .main_header{
-    position: relative;
-    top: -550px;
-    left: 254px;
-    width: 745px;
+    width: 705px;
     border-bottom: 1px solid grey;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .main_header img{
     width: 20px;
+    vertical-align: top;
 }
 .main_header .phone_img{
-    width: 20px;
+    width: 45px;
     position: relative;
+    left: 400px;
 }
 .main_header p{
-    position: relative;
-    left: 515px;
     font-size: 10px;
     color: grey;
     margin-left: 0px;
     font-weight: 1;
+    position: relative;
+    left: 400px;
 }
 .main_header h3{
     display: inline-block;
+    font-size: 20px;
+}
+.main_header .phone_number{
+    font-size: 35px;
+    color: rgb(84, 175, 236);
+    position: relative;
+    left: 400px;
 }
 .contact_info{
     display: inline-block;
     vertical-align: top;
+}
+.main_body{
+    width: 705px;
+    padding-top: 10px;
+}
+.main_body h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(59, 99, 184);
+}
+.main_body p{
+    padding-bottom: 10px;
+}
+.main_body ul{
+    margin-left: 7%;
+}
+.main_body img{
+    width: 200px;
+    padding-left: 225px;
+}
+.main_body .p a{
+    text-decoration: none;
+}
+.main_body .bold{
+    font-weight: 900;
+}
+.main_body ol{
+    margin-left: 7%;
+}
+.main_body a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 20px;
+    width: 699px;
+    height: 120px;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+}
+.footer img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer h3{
+    display: inline-block;
+}
+.big_3{
+    width: 500px;
+    position: relative;
+    left: 107px;
+    bottom: 66px;
 }
